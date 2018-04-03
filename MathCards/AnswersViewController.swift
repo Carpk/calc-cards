@@ -9,11 +9,14 @@
 import UIKit
 
 class AnswersViewController: UIViewController {
-
+    @IBOutlet weak var answerLabelField: UILabel!
+    var answersData: String?
+    var correctAnswer: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        answerLabelField.text = answersData
     }
 
     override func didReceiveMemoryWarning() {

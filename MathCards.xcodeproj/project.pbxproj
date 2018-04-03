@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29156E6920713CFF008CC365 /* cardCrop167.png in Resources */ = {isa = PBXBuildFile; fileRef = 29156E6820713CFF008CC365 /* cardCrop167.png */; };
+		294C85382066C69F00098FFF /* AnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294C85372066C69F00098FFF /* AnswersViewController.swift */; };
+		2956A38B206FFF4E00A5604C /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = 2956A38A206FFF4E00A5604C /* card.png */; };
 		29BE31DA2066B9EF0032BAE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BE31D92066B9EF0032BAE0 /* AppDelegate.swift */; };
 		29BE31DC2066B9EF0032BAE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BE31DB2066B9EF0032BAE0 /* ViewController.swift */; };
 		29BE31DF2066B9EF0032BAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BE31DD2066B9EF0032BAE0 /* Main.storyboard */; };
@@ -15,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29156E6820713CFF008CC365 /* cardCrop167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardCrop167.png; sourceTree = "<group>"; };
+		294ADD052071E4B600D9CA20 /* MathCards.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MathCards.xcodeproj; sourceTree = "<group>"; };
+		294C85372066C69F00098FFF /* AnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewController.swift; sourceTree = "<group>"; };
+		2956A38A206FFF4E00A5604C /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = "<group>"; };
 		29BE31D62066B9EF0032BAE0 /* MathCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BE31D92066B9EF0032BAE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29BE31DB2066B9EF0032BAE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +42,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		294ADCFF2071DF8800D9CA20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		294ADD062071E4B600D9CA20 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 		29BE31CD2066B9EF0032BAE0 = {
 			isa = PBXGroup;
 			children = (
+				294ADD052071E4B600D9CA20 /* MathCards.xcodeproj */,
 				29BE31D82066B9EF0032BAE0 /* MathCards */,
 				29BE31D72066B9EF0032BAE0 /* Products */,
+				294ADCFF2071DF8800D9CA20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +78,10 @@
 				29BE31D92066B9EF0032BAE0 /* AppDelegate.swift */,
 				29BE31DB2066B9EF0032BAE0 /* ViewController.swift */,
 				29BE31DD2066B9EF0032BAE0 /* Main.storyboard */,
+				294C85372066C69F00098FFF /* AnswersViewController.swift */,
 				29BE31E02066B9EF0032BAE0 /* Assets.xcassets */,
+				29156E6820713CFF008CC365 /* cardCrop167.png */,
+				2956A38A206FFF4E00A5604C /* card.png */,
 				29BE31E22066B9EF0032BAE0 /* LaunchScreen.storyboard */,
 				29BE31E52066B9EF0032BAE0 /* Info.plist */,
 			);
@@ -96,6 +120,7 @@
 				TargetAttributes = {
 					29BE31D52066B9EF0032BAE0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -111,6 +136,12 @@
 			mainGroup = 29BE31CD2066B9EF0032BAE0;
 			productRefGroup = 29BE31D72066B9EF0032BAE0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 294ADD062071E4B600D9CA20 /* Products */;
+					ProjectRef = 294ADD052071E4B600D9CA20 /* MathCards.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				29BE31D52066B9EF0032BAE0 /* MathCards */,
@@ -124,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29BE31E42066B9EF0032BAE0 /* LaunchScreen.storyboard in Resources */,
+				2956A38B206FFF4E00A5604C /* card.png in Resources */,
 				29BE31E12066B9EF0032BAE0 /* Assets.xcassets in Resources */,
+				29156E6920713CFF008CC365 /* cardCrop167.png in Resources */,
 				29BE31DF2066B9EF0032BAE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294C85382066C69F00098FFF /* AnswersViewController.swift in Sources */,
 				29BE31DC2066B9EF0032BAE0 /* ViewController.swift in Sources */,
 				29BE31DA2066B9EF0032BAE0 /* AppDelegate.swift in Sources */,
 			);
@@ -211,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -274,12 +308,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K542JDSF9F;
 				INFOPLIST_FILE = MathCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.ShawnKlein.MathCards;
+				PRODUCT_BUNDLE_IDENTIFIER = net.ShawnKlein.CalculusCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,11 +325,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K542JDSF9F;
 				INFOPLIST_FILE = MathCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.ShawnKlein.MathCards;
+				PRODUCT_BUNDLE_IDENTIFIER = net.ShawnKlein.CalculusCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
