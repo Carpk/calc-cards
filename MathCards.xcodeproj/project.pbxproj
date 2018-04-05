@@ -15,12 +15,14 @@
 		29BE31DF2066B9EF0032BAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BE31DD2066B9EF0032BAE0 /* Main.storyboard */; };
 		29BE31E12066B9EF0032BAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BE31E02066B9EF0032BAE0 /* Assets.xcassets */; };
 		29BE31E42066B9EF0032BAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BE31E22066B9EF0032BAE0 /* LaunchScreen.storyboard */; };
+		A0B4A030992BB37F432A4D1C /* Pods_MathCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F4AEB5D82436F85D361661 /* Pods_MathCards.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29156E6820713CFF008CC365 /* cardCrop167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardCrop167.png; sourceTree = "<group>"; };
 		294ADD052071E4B600D9CA20 /* MathCards.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MathCards.xcodeproj; sourceTree = "<group>"; };
 		294C85372066C69F00098FFF /* AnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersViewController.swift; sourceTree = "<group>"; };
+		2955D5472075B86400578005 /* MathCards-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MathCards-Bridging-Header.h"; sourceTree = "<group>"; };
 		2956A38A206FFF4E00A5604C /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = "<group>"; };
 		29BE31D62066B9EF0032BAE0 /* MathCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BE31D92066B9EF0032BAE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +31,9 @@
 		29BE31E02066B9EF0032BAE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29BE31E32066B9EF0032BAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29BE31E52066B9EF0032BAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F70B3B7DBB3CAD569550EE /* Pods-MathCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathCards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathCards/Pods-MathCards.debug.xcconfig"; sourceTree = "<group>"; };
+		C1C4E0D0EA4CDE7CF3453F87 /* Pods-MathCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathCards.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathCards/Pods-MathCards.release.xcconfig"; sourceTree = "<group>"; };
+		F3F4AEB5D82436F85D361661 /* Pods_MathCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,21 +41,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B4A030992BB37F432A4D1C /* Pods_MathCards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E6E1CDA1904EC26E59BB81C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7F70B3B7DBB3CAD569550EE /* Pods-MathCards.debug.xcconfig */,
+				C1C4E0D0EA4CDE7CF3453F87 /* Pods-MathCards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		294ADCFF2071DF8800D9CA20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3F4AEB5D82436F85D361661 /* Pods_MathCards.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		294ADD062071E4B600D9CA20 /* Products */ = {
 			isa = PBXGroup;
+			children = (
+			);
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -61,6 +79,7 @@
 				29BE31D82066B9EF0032BAE0 /* MathCards */,
 				29BE31D72066B9EF0032BAE0 /* Products */,
 				294ADCFF2071DF8800D9CA20 /* Frameworks */,
+				0E6E1CDA1904EC26E59BB81C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +103,7 @@
 				2956A38A206FFF4E00A5604C /* card.png */,
 				29BE31E22066B9EF0032BAE0 /* LaunchScreen.storyboard */,
 				29BE31E52066B9EF0032BAE0 /* Info.plist */,
+				2955D5472075B86400578005 /* MathCards-Bridging-Header.h */,
 			);
 			path = MathCards;
 			sourceTree = "<group>";
@@ -95,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29BE31E82066B9EF0032BAE0 /* Build configuration list for PBXNativeTarget "MathCards" */;
 			buildPhases = (
+				7648ECE809DFDB34FAA2B373 /* [CP] Check Pods Manifest.lock */,
 				29BE31D22066B9EF0032BAE0 /* Sources */,
 				29BE31D32066B9EF0032BAE0 /* Frameworks */,
 				29BE31D42066B9EF0032BAE0 /* Resources */,
+				6D9C38C165C64BD788FF7F31 /* [CP] Embed Pods Frameworks */,
+				70DD9C5B473D3824BC485F63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +186,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D9C38C165C64BD788FF7F31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MathCards/Pods-MathCards-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iosMath/iosMath.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iosMath.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathCards/Pods-MathCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70DD9C5B473D3824BC485F63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathCards/Pods-MathCards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7648ECE809DFDB34FAA2B373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathCards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29BE31D22066B9EF0032BAE0 /* Sources */ = {
@@ -306,6 +383,7 @@
 		};
 		29BE31E92066B9EF0032BAE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F70B3B7DBB3CAD569550EE /* Pods-MathCards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -315,6 +393,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.ShawnKlein.CalculusCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MathCards/MathCards-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,6 +402,7 @@
 		};
 		29BE31EA2066B9EF0032BAE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C4E0D0EA4CDE7CF3453F87 /* Pods-MathCards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -332,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.ShawnKlein.CalculusCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MathCards/MathCards-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

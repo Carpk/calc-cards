@@ -7,16 +7,28 @@
 //
 
 import UIKit
+import iosMath
 
 class AnswersViewController: UIViewController {
     @IBOutlet weak var answerLabelField: UILabel!
+    @IBOutlet weak var correctAnsLabel: UILabel!
     var answersData: String?
     var correctAnswer: String?
+    var answerIsCorrect: Bool?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        answerLabelField.text = answersData
+        answerLabelField.layer.cornerRadius = 15.0
+        answerLabelField.clipsToBounds = true
+        if answerIsCorrect! {
+            answerLabelField.text = "Correct!"
+            answerLabelField.backgroundColor = UIColor(red: 0.14, green: 0.60, blue: 0.14, alpha: 1.0)
+        } else {
+            answerLabelField.text = "Incorrect."
+            answerLabelField.backgroundColor = UIColor(red: 0.9, green: 0.3, blue: 0.3, alpha: 1.0)
+            correctAnsLabel.text = "The correct answer was: " + correctAnswer!
+        }
     }
 
     override func didReceiveMemoryWarning() {
